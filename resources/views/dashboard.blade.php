@@ -7,7 +7,7 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            @livewire('component', ['user' => $user], key($user->id))
+            @livewire('show-posts', ['title' => 'Este es un titulo de prueba'])
         </div>
     </div>
 </x-app-layout>
